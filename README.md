@@ -19,7 +19,7 @@ npm run build
 
 ## GitHub Pages
 
-GitHub Pages is the default deployment target. Firebase is not used for this project.
+GitHub Pages is the only deployment target for this project.
 
 Build the static export with the GitHub Pages base path:
 
