@@ -1,0 +1,30 @@
+# ConsultBench Website
+
+Public website for ConsultBench, a benchmark for AI agents performing consulting-style knowledge work across spreadsheets, slides, and memos.
+
+This repository is intended for GitHub Pages. It contains the public website, blog, open calibration metadata, and reference-solution validation rows. It does **not** contain sealed evaluation tasks or private benchmark checks.
+
+## Local Development
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## GitHub Pages
+
+Build the static export with the GitHub Pages base path:
+
+```bash
+NEXT_PUBLIC_SITE_BASE_PATH=/consultbench npm run build
+```
+
+Publish the generated `out/` directory to the `gh-pages` branch, then configure GitHub Pages to serve that branch.
+
+For a custom domain or organization root site, remove or update the base path before building.

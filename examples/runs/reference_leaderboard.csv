@@ -1,0 +1,11 @@
+task_id,model,run_id,overall_score,deterministic,rubric,format,rubric_pending,flags
+consultbench_v0_001,reference_solution,consultbench_v0_001,100.0,45.0,45.0,10.0,False,
+consultbench_v0_002,reference_solution,consultbench_v0_002,100.0,45.0,45.0,10.0,False,
+consultbench_v0_003,reference_solution,consultbench_v0_003,100.0,45.0,45.0,10.0,False,
+consultbench_v0_004,reference_solution,consultbench_v0_004,100.0,45.0,45.0,10.0,False,
+consultbench_v0_005,reference_solution,consultbench_v0_005,100.0,45.0,45.0,10.0,False,
+consultbench_v0_006,reference_solution,consultbench_v0_006,100.0,45.0,45.0,10.0,False,
+consultbench_v0_007,reference_solution,consultbench_v0_007,100.0,45.0,45.0,10.0,False,
+consultbench_v0_008,reference_solution,consultbench_v0_008,100.0,45.0,45.0,10.0,False,
+consultbench_v0_009,reference_solution,consultbench_v0_009,100.0,45.0,45.0,10.0,False,
+consultbench_v0_010,reference_solution,consultbench_v0_010,100.0,45.0,45.0,10.0,False,

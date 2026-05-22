@@ -1,0 +1,250 @@
+{
+  "name": "ConsultBench v0",
+  "task_count": 10,
+  "public_samples": [
+    "consultbench_v0_001",
+    "consultbench_v0_002",
+    "consultbench_v0_003"
+  ],
+  "private_holdout": [
+    "consultbench_v0_004",
+    "consultbench_v0_005",
+    "consultbench_v0_006",
+    "consultbench_v0_007",
+    "consultbench_v0_008",
+    "consultbench_v0_009",
+    "consultbench_v0_010"
+  ],
+  "tasks": [
+    {
+      "task_id": "consultbench_v0_001",
+      "title": "Market Expansion Recommendation",
+      "visibility": "public_sample",
+      "domain": "business_analyst",
+      "inputs": [
+        "instructions.md",
+        "source.xlsx",
+        "context.docx",
+        "template.pptx"
+      ],
+      "required_outputs": [
+        "analysis.xlsx",
+        "recommendation.pptx",
+        "memo.docx"
+      ],
+      "time_limit_minutes": 120,
+      "scoring": {
+        "deterministic_points": 45,
+        "rubric_points": 45,
+        "format_points": 10
+      }
+    },
+    {
+      "task_id": "consultbench_v0_002",
+      "title": "SaaS Churn Cohort Analysis",
+      "visibility": "public_sample",
+      "domain": "business_analyst",
+      "inputs": [
+        "instructions.md",
+        "source.xlsx",
+        "context.docx",
+        "template.pptx"
+      ],
+      "required_outputs": [
+        "analysis.xlsx",
+        "recommendation.pptx",
+        "memo.docx"
+      ],
+      "time_limit_minutes": 120,
+      "scoring": {
+        "deterministic_points": 45,
+        "rubric_points": 45,
+        "format_points": 10
+      }
+    },
+    {
+      "task_id": "consultbench_v0_003",
+      "title": "Pricing and Margin Diagnostic",
+      "visibility": "public_sample",
+      "domain": "business_analyst",
+      "inputs": [
+        "instructions.md",
+        "source.xlsx",
+        "context.docx",
+        "template.pptx"
+      ],
+      "required_outputs": [
+        "analysis.xlsx",
+        "recommendation.pptx",
+        "memo.docx"
+      ],
+      "time_limit_minutes": 120,
+      "scoring": {
+        "deterministic_points": 45,
+        "rubric_points": 45,
+        "format_points": 10
+      }
+    },
+    {
+      "task_id": "consultbench_v0_004",
+      "title": "Sealed evaluation task",
+      "visibility": "private_holdout",
+      "domain": "business_analyst",
+      "inputs": [
+        "instructions.md",
+        "source.xlsx",
+        "context.docx",
+        "template.pptx"
+      ],
+      "required_outputs": [
+        "analysis.xlsx",
+        "recommendation.pptx",
+        "memo.docx"
+      ],
+      "time_limit_minutes": 120,
+      "scoring": {
+        "deterministic_points": 45,
+        "rubric_points": 45,
+        "format_points": 10
+      }
+    },
+    {
+      "task_id": "consultbench_v0_005",
+      "title": "Sealed evaluation task",
+      "visibility": "private_holdout",
+      "domain": "business_analyst",
+      "inputs": [
+        "instructions.md",
+        "source.xlsx",
+        "context.docx",
+        "template.pptx"
+      ],
+      "required_outputs": [
+        "analysis.xlsx",
+        "recommendation.pptx",
+        "memo.docx"
+      ],
+      "time_limit_minutes": 120,
+      "scoring": {
+        "deterministic_points": 45,
+        "rubric_points": 45,
+        "format_points": 10
+      }
+    },
+    {
+      "task_id": "consultbench_v0_006",
+      "title": "Sealed evaluation task",
+      "visibility": "private_holdout",
+      "domain": "business_analyst",
+      "inputs": [
+        "instructions.md",
+        "source.xlsx",
+        "context.docx",
+        "template.pptx"
+      ],
+      "required_outputs": [
+        "analysis.xlsx",
+        "recommendation.pptx",
+        "memo.docx"
+      ],
+      "time_limit_minutes": 120,
+      "scoring": {
+        "deterministic_points": 45,
+        "rubric_points": 45,
+        "format_points": 10
+      }
+    },
+    {
+      "task_id": "consultbench_v0_007",
+      "title": "Sealed evaluation task",
+      "visibility": "private_holdout",
+      "domain": "business_analyst",
+      "inputs": [
+        "instructions.md",
+        "source.xlsx",
+        "context.docx",
+        "template.pptx"
+      ],
+      "required_outputs": [
+        "analysis.xlsx",
+        "recommendation.pptx",
+        "memo.docx"
+      ],
+      "time_limit_minutes": 120,
+      "scoring": {
+        "deterministic_points": 45,
+        "rubric_points": 45,
+        "format_points": 10
+      }
+    },
+    {
+      "task_id": "consultbench_v0_008",
+      "title": "Sealed evaluation task",
+      "visibility": "private_holdout",
+      "domain": "business_analyst",
+      "inputs": [
+        "instructions.md",
+        "source.xlsx",
+        "context.docx",
+        "template.pptx"
+      ],
+      "required_outputs": [
+        "analysis.xlsx",
+        "recommendation.pptx",
+        "memo.docx"
+      ],
+      "time_limit_minutes": 120,
+      "scoring": {
+        "deterministic_points": 45,
+        "rubric_points": 45,
+        "format_points": 10
+      }
+    },
+    {
+      "task_id": "consultbench_v0_009",
+      "title": "Sealed evaluation task",
+      "visibility": "private_holdout",
+      "domain": "business_analyst",
+      "inputs": [
+        "instructions.md",
+        "source.xlsx",
+        "context.docx",
+        "template.pptx"
+      ],
+      "required_outputs": [
+        "analysis.xlsx",
+        "recommendation.pptx",
+        "memo.docx"
+      ],
+      "time_limit_minutes": 120,
+      "scoring": {
+        "deterministic_points": 45,
+        "rubric_points": 45,
+        "format_points": 10
+      }
+    },
+    {
+      "task_id": "consultbench_v0_010",
+      "title": "Sealed evaluation task",
+      "visibility": "private_holdout",
+      "domain": "business_analyst",
+      "inputs": [
+        "instructions.md",
+        "source.xlsx",
+        "context.docx",
+        "template.pptx"
+      ],
+      "required_outputs": [
+        "analysis.xlsx",
+        "recommendation.pptx",
+        "memo.docx"
+      ],
+      "time_limit_minutes": 120,
+      "scoring": {
+        "deterministic_points": 45,
+        "rubric_points": 45,
+        "format_points": 10
+      }
+    }
+  ]
+}
