@@ -19,12 +19,20 @@ npm run build
 
 ## GitHub Pages
 
+GitHub Pages is the default deployment target. Firebase is not used for this project.
+
 Build the static export with the GitHub Pages base path:
 
 ```bash
-NEXT_PUBLIC_SITE_BASE_PATH=/consultbench npm run build
+npm run build:pages
 ```
 
-Publish the generated `out/` directory to the `gh-pages` branch, then configure GitHub Pages to serve that branch.
+Publish the generated `out/` directory to the `gh-pages` branch:
+
+```bash
+npm run deploy:pages
+```
+
+GitHub Pages should serve the `gh-pages` branch from `/`.
 
 For a custom domain or organization root site, remove or update the base path before building.

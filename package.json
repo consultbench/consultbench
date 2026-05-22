@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:pages": "NEXT_PUBLIC_SITE_BASE_PATH=/consultbench next build",
+    "deploy:pages": "scripts/deploy_pages.sh",
     "start": "next start",
     "validate": "python3 scripts/validate_benchmark.py"
   },
@@ -16,4 +18,3 @@
   },
   "devDependencies": {}
 }
-
